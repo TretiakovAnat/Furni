@@ -1,0 +1,135 @@
+.footer-section {
+  background-color: #fff;
+  &__conteiner {
+    position: relative;
+  }
+  &__subscribe {
+    display: flex;
+  }
+  &__sub {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  &__subtitle {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  &__title {
+    font-weight: 600;
+  }
+  &__block {
+    margin-bottom: 80px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  &__btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: var(--colorPrime);
+  }
+  &__foto {
+    top: -80px;
+    right: 0;
+    position: absolute;
+  }
+  &__content {
+    display: flex;
+    gap: 40px;
+    padding-top: 17px;
+  }
+  &__main {
+  }
+  &__logo {
+    max-width: 95px;
+    width: 100%;
+    max-height: 39px;
+  }
+  &__text {
+    max-width: 360px;
+    line-height: 1.4;
+    font-weight: 300;
+    color: var(--colorGrey);
+  }
+
+  &__links {
+    display: flex;
+    gap: 87px;
+    color: var(--colorGrey);
+    justify-content: space-between;
+  }
+  &__menu {
+  }
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: var(--colorGrey);
+  }
+  &__support {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: var(--colorGrey);
+  }
+  &__about-us {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  &__product {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: var(--colorGrey);
+  }
+  &__privat {
+  }
+
+  &__socials {
+    padding: 50px 0 30px 0;
+    display: flex;
+    gap: 10px;
+  }
+  &__social {
+    background-color: #6a6a6a57;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+  }
+  &__img {
+    padding: 6px;
+  }
+}
+.block {
+  &__input {
+    font-size: 20px;
+    width: 260px;
+    height: 45px;
+    border: 1px solid #000;
+    border-radius: 10px;
+
+    &::placeholder {
+      text-align: center;
+      font-size: 16px;
+    }
+  }
+}
+.document {
+  padding: 32px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #6a6a6a57;
+  &__mail {
+    color: var(--colorGrey);
+  }
+  &__privat {
+    display: flex;
+    gap: 10px;
+    color: var(--colorGrey);
+  }
+}

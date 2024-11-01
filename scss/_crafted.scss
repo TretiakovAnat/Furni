@@ -1,0 +1,57 @@
+.crafted-section {
+  &__conteiner {
+    display: flex;
+    gap: 114px;
+    align-items: center;
+  }
+  &__text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 228px;
+    gap: 40px;
+  }
+  &__title {
+    font-weight: 600;
+    font-size: 34px;
+  }
+
+  &__subtitle {
+    font-weight: 200;
+    line-height: 1.2;
+    color: var(--colorGrey);
+  }
+  &__btn {
+    background-color: #000;
+    color: #ffff;
+    transition: all 0.5s;
+    &:hover {
+      border: 1px solid #000;
+      background-color: #fff;
+      color: #000;
+    }
+  }
+
+  &__cards {
+  }
+}
+.card {
+  display: flex;
+  gap: 72px;
+  &__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__foto {
+    margin-bottom: 44px;
+    &--small {
+      margin-bottom: 66px;
+    }
+  }
+  &__title {
+  }
+  &__price {
+  }
+}
+

@@ -1,0 +1,34 @@
+.header {
+  background-color: var(--colorPrime);
+  &__conteiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 15px;
+  }
+  &__logo {
+  }
+
+  &__menu {
+    .menu {
+      &__body {
+        display: flex;
+        justify-content: flex-end;
+      }
+      &__list {
+        display: flex;
+        gap: 44px;
+      }
+      &__item {
+      }
+      &__link {
+        color: #ffffff51;
+        font-size: 16px;
+        &:hover {
+          color: #ffff;
+          text-decoration: underline var(--colorButton);
+        }
+      }
+    }
+  }
+}

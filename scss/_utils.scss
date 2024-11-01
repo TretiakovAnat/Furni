@@ -1,0 +1,15 @@
+.main__body {
+  font-family: "Inter";
+  font-size: 14px;
+  background-color: #eff2f1;
+}
+.title {
+  font-size: 34px;
+  font-weight: 600;
+}
+
+[class*="__conteiner"] {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 150px 15px 0 15px;
+}

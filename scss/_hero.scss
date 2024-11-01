@@ -1,0 +1,40 @@
+.hero {
+  background-color: var(--colorPrime);
+
+  &__conteiner {
+    display: flex;
+    padding-top: 130px;
+    justify-content: space-around;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  &__title {
+    font-size: 54px;
+    max-width: 520px;
+    color: #ffff;
+    margin-bottom: 117px;
+  }
+  &__button {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+  }
+  &__btn {
+  }
+
+  &__image {
+    position: relative;
+    z-index: 2;
+  }
+
+  &__image-doted {
+    position: absolute;
+    right: 0;
+    z-index: -1;
+  }
+}
+
